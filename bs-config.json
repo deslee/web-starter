@@ -1,0 +1,9 @@
+{
+	"port": 3000,
+	"open": false,
+	"files": ["res/**/*", "index.html", "!src/**/*"],
+	"ui": {
+		"port": 3001
+	}
+}
+

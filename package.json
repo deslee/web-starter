@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server & npm run sass & npm run browserify",
+    "sass": "node-sass src/style.scss res/style.css -w",
+    "browserify": "watchify src/main.js -o res/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "lite-server": "^2.2.2",
+    "node-sass": "^4.1.1",
+    "watchify": "^3.8.0"
+  }
+}
